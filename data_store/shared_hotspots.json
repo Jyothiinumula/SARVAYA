@@ -1,0 +1,48 @@
+[
+  {
+    "id": "HOTSPOT-VZM-01",
+    "name": "MG Road - RTC Complex Drainage Hotspot",
+    "locality": "MG Road, Near RTC Complex to Mayuri Junction",
+    "city": "Vizianagaram",
+    "possibleIssue": "Storm Drainage Blockage & Waterlogging",
+    "possibleRootCause": "Possible Root Cause: Severe silt accumulation in primary roadside storm drain combined with choked culvert inlet near RTC Complex.",
+    "relatedReportIds": [
+      "SRV-2026-1042",
+      "SRV-2026-1050",
+      "SRV-2026-1054",
+      "SRV-2026-1057"
+    ],
+    "priority": "HIGH",
+    "department": "Drainage & Sanitation (Municipal Corporation of Vizianagaram)",
+    "status": "In Progress",
+    "coordinates": {
+      "lat": 18.1158,
+      "lng": 83.3986
+    },
+    "radiusMeters": 260,
+    "detectedAt": "2026-09-30 08:30 AM",
+    "notes": "SARVAYA identified 4 correlated citizen reports within 250m reporting stagnant water, blocked drains, bad odor, and mosquito accumulation within 48 hours."
+  },
+  {
+    "id": "HOTSPOT-VZM-02",
+    "name": "Cantonment Road Pedestrian Hazard Zone",
+    "locality": "Cantonment Main Road, Near Govt College & Collectorate Turn",
+    "city": "Vizianagaram",
+    "possibleIssue": "Road Deterioration & Damaged Streetlighting",
+    "possibleRootCause": "Possible Root Cause: Water stagnation weakening bitumen sub-base combined with damaged roadside cable conduit.",
+    "relatedReportIds": [
+      "SRV-2026-1015",
+      "SRV-2026-1038"
+    ],
+    "priority": "HIGH",
+    "department": "Roads & Infrastructure (Municipal Corporation of Vizianagaram)",
+    "status": "Under Escalation Review",
+    "coordinates": {
+      "lat": 18.1224,
+      "lng": 83.4042
+    },
+    "radiusMeters": 300,
+    "detectedAt": "2026-09-28 04:15 PM",
+    "notes": "Multiple complaints reporting deep potholes and broken street lamp poles near student commute junction."
+  }
+]
