@@ -1,0 +1,6 @@
+{
+  "name": "SARVAYA - AI-Powered Civic Intelligence & Accountability System",
+  "description": "SARVAYA is a mobile-first civic intelligence and accountability system helping citizens report public problems and authorities identify, prioritize, route, monitor, and resolve civic issues.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

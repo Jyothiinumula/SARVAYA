@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="100" fill="#000080" />
+  
+  <!-- Indian Tricolour subtle top stripe -->
+  <path d="M0 0H512V24H0V0Z" fill="#FF9933" />
+  <path d="M0 24H512V48H0V24Z" fill="#FFFFFF" />
+  <path d="M0 48H512V72H0V48Z" fill="#138808" />
+
+  <!-- Shield / Emblem container -->
+  <circle cx="256" cy="270" r="170" fill="#FFFFFF" />
+  
+  <!-- Saffron Left Leaf -->
+  <path d="M256 300C256 185 160 120 90 135C75 220 130 315 256 300Z" fill="#FF9933" />
+  
+  <!-- India Green Right Leaf -->
+  <path d="M256 300C256 170 355 110 422 125C437 210 390 315 256 300Z" fill="#138808" />
+  
+  <!-- Central Stem -->
+  <path d="M256 295V390" stroke="#000080" stroke-width="28" stroke-linecap="round" />
+  
+  <!-- Ashoka Chakra Blue Center Circle -->
+  <circle cx="256" cy="275" r="38" fill="#000080" />
+  <circle cx="256" cy="275" r="22" fill="#FFFFFF" />
+  <circle cx="256" cy="275" r="10" fill="#000080" />
+</svg>

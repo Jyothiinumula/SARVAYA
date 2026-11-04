@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    /* Indian Tricolour Palette */
+    --saffron: #FF9933;
+    --saffron-dark: #E68A00;
+    --saffron-light: #FFF6EC;
+    --saffron-border: #FFD4A8;
+
+    --india-white: #FFFFFF;
+    --bg-page: #FBFBFC;
+    --bg-surface: #FFFFFF;
+    --border-color: #E2E8F0;
+    --text-primary: #000080;
+    --text-secondary: #475569;
+
+    --india-green: #138808;
+    --india-green-dark: #0F6E06;
+    --india-green-light: #EDF8ED;
+    --india-green-border: #A6DDA6;
+
+    --ashoka-blue: #000080;
+    --ashoka-blue-dark: #000055;
+    --ashoka-blue-light: #EBF0FA;
+    --ashoka-blue-border: #B3C6EB;
+
+    --priority-high: #D32F2F;
+    --priority-medium: #FF9933;
+    --priority-low: #000080;
+    --priority-resolved: #138808;
+  }
+
+  .dark {
+    --bg-page: #0b1120;
+    --bg-surface: #1e293b;
+    --border-color: #334155;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+
+    --saffron-light: #2c1e10;
+    --saffron-border: #7c410b;
+
+    --india-green-light: #0d2813;
+    --india-green-border: #1a5323;
+
+    --ashoka-blue-light: #131c38;
+    --ashoka-blue-border: #1e3a8a;
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+/* Indian Tricolour Utility Classes */
+.bg-saffron { background-color: #FF9933; }
+.text-saffron { color: #FF9933; }
+.border-saffron { border-color: #FF9933; }
+
+.bg-india-green { background-color: #138808; }
+.text-india-green { color: #138808; }
+.border-india-green { border-color: #138808; }
+
+.bg-ashoka-blue { background-color: #000080; }
+.text-ashoka-blue { color: #000080; }
+.border-ashoka-blue { border-color: #000080; }
+
+/* Tricolour Accent Bars */
+.tricolour-bar {
+  background: linear-gradient(90deg, #FF9933 0%, #FF9933 33.33%, #FFFFFF 33.33%, #FFFFFF 66.66%, #138808 66.66%, #138808 100%);
+}
+
+.tricolour-gradient {
+  background: linear-gradient(135deg, rgba(255, 153, 51, 0.15) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(19, 136, 8, 0.15) 100%);
+}
+
+.tricolour-border {
+  border-image: linear-gradient(to right, #FF9933, #FFFFFF, #138808) 1;
+}
+
+/* Subtle pulse for hotspots */
+@keyframes hotspot-pulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 153, 51, 0.7); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(255, 153, 51, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 153, 51, 0); }
+}
+
+.hotspot-pulse-anim {
+  animation: hotspot-pulse 2s infinite;
+}
+
+/* Hide scrollbars for horizontal tab navigation */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
